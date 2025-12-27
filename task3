@@ -1,0 +1,20 @@
+# task 1 tutedude
+def fect(num):
+    factorial = 1
+    while num> 1:
+        factorial *= num
+        num -= 1
+    return factorial
+
+number = int(input("enter the number:"))
+print(f"factorial of {number} is{fect(number)}")
+
+#task 2 tutedude
+import math 
+number = int(input("entre the number:"))
+square = math.sqrt(number)
+print(f"square root of {number} is {square}")
+sine = math.sin(number)
+print(f"sine of {number} is {sine}")
+logarithm = math.log(number)
+print(f"logarithm of {number} is {logarithm}")
