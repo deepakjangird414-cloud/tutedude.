@@ -1,0 +1,17 @@
+# TASK 1 TUTEDUDE FOR READING DATA FROM A FILE
+with open("sample.txt",'rt') as FILE:
+    try:
+        content = FILE.read()
+        FILE.close()
+        print(content)
+    except Exception as DA:
+        print(f"THE FILE{sample.txt} NOT FOUND {DA}")
+
+# TASK 2 TUTEDUDE FOR APPENDING DATA IN A FILE
+with open("sample.txt",'at') as file:
+    try:
+        content1 = file.write(input("ENTER YOUR DATA TO APPEND IN THE FILE :"))
+        file.close()
+        print((f"DATA APPNDED SUCCESSFULIY IN THE FILE :{content1}"))
+    except Exception as D:
+        print(f"the file{sample.txt} not found{D}")
